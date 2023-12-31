@@ -2,21 +2,21 @@ header h1 {
     color: #00B0FF;
     font-family: 'DM Sans', sans-serif;
     font-size: 16px;
-    padding-left:30px;
-    padding-top:18px;
-    padding-bottom:15px;
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 15px;
 }
 
-header{
+header {
     background: #EDF1F7;
-    margin-top:-10px;
+    margin-top: -10px;
     margin-left: -10px;
-    margin-right:-10px;
-    margin-bottom:-11px;
-    width:100%;
+    padding-right: 20px;
+    margin-bottom: -11px;
+    width: 100%;
 }
 
-body{
+body {
     overflow: hidden;
 }
 
@@ -55,7 +55,7 @@ body{
 
 .search {
     margin: -110px;
-    margin-top:-47px;
+    margin-top: -47px;
     padding-left: 17px;
     position: absolute;
     margin-left: 235px;
@@ -77,21 +77,43 @@ body{
 
 .what {
     margin-left: 250px;
-    margin-right:100px;
+    margin-right: 100px;
     margin-top: 50px;
     font-family: 'DM Sans', sans-serif;
     font-size: 24px;
 }
 
-.lorem1{
+.lorem1 {
     margin-left: 250px;
-    color:#6C6C6C;
+    color: #6C6C6C;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.createYour{
+.lorem2 {
+    margin-left: 250px;
+    margin-top: 100px;
+    color: #6C6C6C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.createNow_button {
+    margin-left: 300px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 40px;
+    border: solid;
+    border-radius: 5px;
+    border: 1px solid #00B0FF;
+    width: 154px;
+    height: 41px;
+}
+
+.buttheh {
+    margin-left: 33px;
+}
+
+.createYour {
     font-size: 24px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .textsearch {
@@ -183,8 +205,72 @@ input {
     font-size: 8px;
 }
 
-.createYour{
-    margin-right:130px;
+.createYour {
+    margin-right: 73px;
     position: absolute;
-    right:70%;
+    right: 70%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.chavo {
+    margin-left: 1300px;
+    margin-top: -450px;
+    border: solid;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding-left: 12px;
+    font-family: DM Sans;
+    font-size: 10px;
+    color: #2E3A59;
+}
+
+.more {
+    margin-left: 1315px;
+    color: #2E3A59;
+    font-family: DM Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.createYour_rightPanel {
+    color: #2E3A59;
+    font-family: DM Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1315px;
+}
+
+.chatButton{
+    margin-left:1450px;
+    margin-top:430px;
+    border:solid;
+    border-radius: 5px;
+    border: 1px solid #00B0FF;
+    padding: 10px 10px 10px 10px;
+}
+
+.right_header{
+    position: absolute;
+    margin-left:1050px;
+    margin-top:-85px;
+    display: flex;
+}
+
+.right_header p{
+    color: #2E3A59;
+    font-family: DM Sans;
+    font-size: 10px;
+    padding:30px;
+}
+
+.profile_button{
+    
+    border-radius: 5px;
+    border: 1px solid #00B0FF;
+    height:1px;
 }
